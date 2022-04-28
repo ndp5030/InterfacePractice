@@ -6,7 +6,11 @@ namespace InterfacePractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Cat antonio = new Cat("Antonio Banderas", "ginger", 8, false);
+            antonio.Eat();
+
+            Dog max = new Dog("Max", "White with brown spots", "JackRussell Terrier");
+            max.Eat();
         }
     }
 }
